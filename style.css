@@ -627,7 +627,13 @@ main .content .acc-guide  a.right {
     padding: 0 10px;
     border-left: 1px solid #9e9e9e30;
     justify-content: flex-start;
-    overflow: scroll;
+}
+
+@media (max-width: 991px)
+{
+    .table .row ul.options {
+        overflow: scroll;
+    }
 }
 
 .table .row ul.options li {
