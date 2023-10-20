@@ -492,9 +492,6 @@ main .content .acc-guide  a.right {
     .content .usd-info {
         flex-wrap: wrap;
     } 
-    .content .usd-info .box {
-        width: 185px;
-    }
 }
 
 /* balances */
@@ -565,6 +562,13 @@ main .content .acc-guide  a.right {
     margin-top: 15px;
     overflow: scroll;
     height: 560px;
+}
+@media (max-width: 676px)
+{
+    .table {
+        overflow: none;
+        height: fit-content;
+    } 
 }
 .table .title img {
     width: 22px;
