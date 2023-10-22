@@ -168,7 +168,7 @@ aside.shrink ul li.active img {
 
 /* content */
 main .content {
-    padding: var(--main-padding);
+    padding: var(--main-padding) 20px;
 }
 main .content .acc-guide {
     background-color: var(--background-color);
@@ -450,6 +450,11 @@ main .content .acc-guide  a.right {
     font-size: 24px;
     font-weight: 800;
 }
+
+.content .usd-info .box:last-child .balance {
+    display: flex;
+    align-items: center;
+}
 .content .usd-info .box:last-child .balance span:last-child {
     color: var(--bds-gray-T2);
     font-size: 12px;
@@ -561,8 +566,9 @@ main .content .acc-guide  a.right {
 
 .table {
     margin-top: 15px;
-    overflow: scroll;
+    overflow-y: scroll;
     height: 560px;
+    overflow-x: hidden;
 }
 @media (max-width: 676px)
 {
@@ -646,4 +652,5 @@ main .content .acc-guide  a.right {
     font-size: 12px;
     color: var(--main-color);
     padding: var(--main-padding) 0;
+    cursor: pointer;
 }
