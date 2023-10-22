@@ -139,9 +139,7 @@ new Chart(PL, {
     datasets: [{
       label: 'P&L ',
       data: [-25, 0, -3, -3, -4, 2, 3],
-      borderWidth: 1.5,
       backgroundColor: ["#ef454a", "#ef454a", "#ef454a", "#ef454a", "#ef454a", "#20b26c", "#20b26c"],
-      borderColor: ["#ef454a", "#ef454a", "#ef454a", "#ef454a", "#ef454a", "#20b26c", "#20b26c"],
     }]
   },
   options: {
