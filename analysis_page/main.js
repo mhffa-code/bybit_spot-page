@@ -38,6 +38,7 @@ new Chart(ROI, {
     },
     
     options: {
+      responsive: true,
         plugins : {
             legend: {
                 labels: {
@@ -80,7 +81,7 @@ new Chart(ROI, {
 });
 
 // Profits
-const Profits = document.getElementById('profits');
+const Profits = document.getElementById('profits').getContext("2d");
 
 new Chart(Profits, {
   type: 'line',
@@ -98,6 +99,7 @@ new Chart(Profits, {
     }]
   },
   options: {
+    responsive: true,
     plugins : {
       legend: {
         display: false
@@ -128,7 +130,7 @@ new Chart(Profits, {
 });
 
 // P&L
-const PL = document.getElementById('PL');
+const PL = document.getElementById('PL').getContext("2d");
 
 new Chart(PL, {
   type: 'bar',
@@ -138,11 +140,12 @@ new Chart(PL, {
       label: 'P&L ',
       data: [-25, 0, -3, -3, -4, 2, 3],
       borderWidth: 1.5,
-      backgroundColor: ["red", "red", "red", "red", "red", "green", "green"],
-      borderColor: ["red", "red", "red", "red", "red", "green", "green"],
+      backgroundColor: ["#ef454a", "#ef454a", "#ef454a", "#ef454a", "#ef454a", "#20b26c", "#20b26c"],
+      borderColor: ["#ef454a", "#ef454a", "#ef454a", "#ef454a", "#ef454a", "#20b26c", "#20b26c"],
     }]
   },
   options: {
+    responsive: true,
     plugins : {
       legend : {
         display: false
@@ -160,7 +163,7 @@ new Chart(PL, {
       },
       x: {
         ticks : {
-          color: "#81858c",
+          color: "#81858c"
       },
       grid : {
         color: "#9e9e9e17"
