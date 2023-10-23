@@ -585,6 +585,12 @@ header .right ul li.bars {
         .charts ul li {
             margin-right: 24px;
         }
+        .charts .canvases .roi-canvas {
+            padding: 20px 10px 20px 0;
+        }
+        .charts .canvases .details {
+            margin-left: 20px;
+        }
         .charts .canvases .profits-PL {
             flex-direction: column;
         }
@@ -592,6 +598,7 @@ header .right ul li.bars {
             margin-right: 0;
             width: 100%;
             margin-bottom: 15px;
+            padding: 20px 10px 20px 0;
         }
         
         
