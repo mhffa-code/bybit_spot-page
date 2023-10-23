@@ -442,7 +442,7 @@ main .info .down .box:not(:first-child) .info .balance span:last-child {
      background-color: var(--primary-color-02);
     position: absolute;
     bottom: -96px;
-    left: 50%;
+    left: 34%;
     transform: translateX(-50%);
 }
 header .right ul li.btn {
