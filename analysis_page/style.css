@@ -435,21 +435,24 @@ main .info .down .box:not(:first-child) .info .balance span:last-child {
     position: relative;
 }
  .sub-menu > ul {
-     padding: 4px 0 10px;
+    padding: 5px 10px 10px;
      display: none;
      flex-direction: column;
      visibility: hidden;
      background-color: var(--primary-color-02);
     position: absolute;
-    bottom: -95px;
+    bottom: -96px;
     left: 50%;
     transform: translateX(-50%);
 }
 header .right ul li.btn {
     margin-top: 5px;
+        width: 100%;
 }
 header .right ul li.btn a {
-    padding: 8px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .sub-menu > ul .nested {
     display: flex;
