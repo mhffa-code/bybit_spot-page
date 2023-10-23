@@ -404,6 +404,12 @@ main .info .down .box:not(:first-child) .info .balance span:last-child {
 }
 
 /* responsive header */
+@media (min-width: 1024px) and (max-width: 1100px)
+{
+    header > div ul li a {
+        font-size: 8px;
+    }
+}
 .mobile-menu {
     display: none;
 }
@@ -582,6 +588,7 @@ header .right ul li.bars {
         .charts .canvases .profits-PL > div:first-child {
             margin-right: 0;
             width: 100%;
+            margin-bottom: 15px;
         }
         
         
