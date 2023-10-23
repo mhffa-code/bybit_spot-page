@@ -198,9 +198,6 @@ header .left .search input:focus {
 }
 
 /* info */
-main {
-    
-}
 main >.info {
     background-image: url(images/577bd80490ff11edb2c0d61b1889330a.png);
     background-size: 350px;
