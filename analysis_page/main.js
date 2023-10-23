@@ -170,3 +170,22 @@ new Chart(PL, {
     }
   }
 });
+
+// mobile
+const bars = document.querySelector(".bars");
+const mobile_menu = document.querySelector(".mobile-menu");
+const close_menu = document.querySelector(".mobile-menu > i");
+const profile = document.querySelector(".sub-menu a");
+const profile_menu = document.querySelector(".sub-menu ul");
+
+bars.addEventListener("click", () => {
+  mobile_menu.classList.add("active");
+});
+
+close_menu.addEventListener("click", () => {
+  mobile_menu.classList.remove("active");
+});
+
+profile.addEventListener("click", () => {
+  profile_menu.classList.toggle("active");
+});
