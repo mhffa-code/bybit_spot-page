@@ -428,14 +428,28 @@ main .info .down .box:not(:first-child) .info .balance span:last-child {
  .sub-menu {
     position: relative;
 }
- .sub-menu ul {
+ .sub-menu > ul {
+     padding: 4px 0 10px;
      display: none;
+     flex-direction: column;
      visibility: hidden;
      background-color: var(--primary-color-02);
     position: absolute;
-    bottom: -40px;
+    bottom: -95px;
     left: 50%;
     transform: translateX(-50%);
+}
+header .right ul li.btn {
+    margin-top: 5px;
+}
+header .right ul li.btn a {
+    padding: 8px 20px;
+}
+.sub-menu > ul .nested {
+    display: flex;
+}
+.sub-menu ul li a {
+    font-size: 14px;
 }
 .sub-menu ul li:hover a {
     color: var(--main-color);
@@ -526,7 +540,7 @@ header .right ul li.bars {
 }
 }
 /* responsive header */
-/* responsive inof */
+/* responsive inof + charts */
     @media (max-width: 991px)
     {
         .upgrade .left a {
@@ -559,6 +573,9 @@ header .right ul li.bars {
         main >.info .left .top {
             text-align: center;
         } 
+        .charts ul li {
+            margin-right: 24px;
+        }
         .charts .canvases .profits-PL {
             flex-direction: column;
         }
@@ -573,4 +590,4 @@ header .right ul li.bars {
         } 
  
     }
-/* responsive inof */
+/* responsive inof + charts */
