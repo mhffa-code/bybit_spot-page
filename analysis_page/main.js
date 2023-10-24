@@ -42,6 +42,8 @@ new Chart(ROI, {
         plugins : {
             legend: {
                 labels: {
+                  boxWidth: 8,
+                  boxHeight: 8,
                     usePointStyle: true,
                     pointStyle: 'circle',
                     font: {
@@ -52,7 +54,6 @@ new Chart(ROI, {
             }
         },
       scales: {
-
         y: {
                 ticks : {
                     callback: (value, index, values) => {
