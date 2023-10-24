@@ -493,6 +493,7 @@ aside.shrink ul li.active img {
     width: 100%;
     height: calc(100% + 15px);
     background-color: #00000061;
+    top: 50px;
 }
 
 /* responsive */

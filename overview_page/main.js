@@ -58,7 +58,13 @@ asideLinkes.forEach((li) => {
 // side-menu when scroll
 window.addEventListener("scroll", () => {
     if (scrollY > 50)
-    sideBar.style.top = "0";
+    {
+        sideBar.style.top = "0";
+        overley.style.top = "0"; 
+    }
     else
-    sideBar.style.top = "";
+    {
+        sideBar.style.top = "";
+        overley.style.top = "50px"; 
+    }
 });
