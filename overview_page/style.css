@@ -524,7 +524,7 @@ aside.shrink ul li.active img {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid var(--background-color);
-    padding: 10px 0 30px;
+    padding: 10px 5px 30px;
 }
 
 @media (max-width:676px) {
@@ -605,8 +605,15 @@ aside.shrink ul li.active img {
 .my-assets .row {
     display: flex;
     flex-direction: column;
-    padding: 20px 0;
+    padding: 20px 5px;
     border-bottom: 1px solid var(--background-color);
+    transition: 0.4s;
+    border-radius: 6px;
+}
+
+.my-assets .row:hover {
+    background-color: var(--background-color);
+    cursor: pointer;
 }
 
 .my-assets .row > h4 {
